@@ -1,4 +1,5 @@
 require 'securerandom'
+require 'date'
 
 
 class Item
@@ -26,4 +27,11 @@ class Item
     def genre=(genre)
         @genre = genre
     end
+
+    def can_be_archived?
+        return true if Date.parse(published_date).year.to_i -  Date.today.year.to_i > 10
+        false
+    end
+
+   
 end
