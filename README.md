@@ -43,6 +43,9 @@ In this project, we will create a console app that will help to keep a record of
 - Twitter: [@chiacarlyle](https://twitter.com/chiacarlyle)
 - LinkedIn: [chia-carlyle](https://linkedin.com/in/chia-carlyle)
 
+👤 **Assad Isah**
+- GitHub: [@nottherealalanturing](https://github.com/nottherealalanturing)
+- LinkedIn: [Assad Isah](https://linkedin.com/in/assadisah)
 
 ## 🤝 Contributing
 
