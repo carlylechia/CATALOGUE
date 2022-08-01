@@ -33,5 +33,9 @@ class Item
         false
     end
 
-   
+    def move_to_archive()
+        if can_be_archived?
+            @archived = true
+        end
+    end
 end
