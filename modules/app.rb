@@ -19,19 +19,19 @@ class App
   end
 
   def app_description
-    puts " Welcome to The Catalog of Items 😎 !\n\n".colorize(:light_blue)
+    puts " \n\nWelcome to The Catalogue of Items 😎 !\n\n".colorize(:light_green)
     sleep 0.5
-    puts 'Please choose an option by entering a number:'.colorize(:light_blue)
-    puts '1 - List all books'
-    puts '2 - List all music albums'
-    puts '3 - List all games'
-    puts '4 - List all labels'
-    puts '5 - List all genres'
-    puts '6 - List all authors'
-    puts '7 - Add a book'
-    puts '8 - Add a music album'
-    puts '9 - Add a game'
-    puts '10 - Exit'
+    puts "Please choose an option by entering a number: \n".colorize(:light_blue)
+    puts '  1 - List All Books'
+    puts '  2 - List All Music Albums'
+    puts '  3 - List All Games'
+    puts '  4 - List All Labels'
+    puts '  5 - List All Genres'
+    puts '  6 - List All Authors'
+    puts '  7 - Add A Book'
+    puts '  8 - Add A Music Album'
+    puts '  9 - Add A Game'
+    puts '  10 - Exit'
   end
 
   def select_option(option)
