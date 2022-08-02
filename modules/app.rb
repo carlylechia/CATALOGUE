@@ -10,8 +10,6 @@ class App
   end
 
   def app_description
-    puts " \n\nWelcome to The Catalogue of Items 😎 !\n\n".colorize(:light_green)
-    sleep 0.5
     puts "Please choose an option by entering a number: \n".colorize(:light_blue)
     puts '  1 - List All Books'
     puts '  2 - List All Music Albums'
