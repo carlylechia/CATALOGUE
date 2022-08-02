@@ -1,7 +1,6 @@
 require 'colorize'
 
 class App
-
   def run
     loop do
       app_description
