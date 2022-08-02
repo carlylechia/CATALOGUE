@@ -47,6 +47,11 @@ In this project, we will create a console app that will help to keep a record of
 - GitHub: [@nottherealalanturing](https://github.com/nottherealalanturing)
 - LinkedIn: [Assad Isah](https://linkedin.com/in/assadisah)
 
+👤 **Chia Carlyle**
+- GitHub: [Ogaga Iyara](https://github.com/ogaga01)
+- Twitter: [Ogaga Iyara](https://twitter.com/i_ogaga_n)
+- LinkedIn: [Ogaga Iyara](https://linkedin.com/in/ogaga-iyara)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
