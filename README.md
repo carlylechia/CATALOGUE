@@ -26,7 +26,7 @@ In this project, we will create a console app that will help to keep a record of
   ```
   gem install Rspec
   ```
-  - Run `Rubocop` and fix linters errors, if any.
+  - Run `Rubocop -A` and fix linters errors, if any.
   - Run the ruby program in your terminal thus:
   ```
   main.rb
@@ -43,6 +43,14 @@ In this project, we will create a console app that will help to keep a record of
 - Twitter: [@chiacarlyle](https://twitter.com/chiacarlyle)
 - LinkedIn: [chia-carlyle](https://linkedin.com/in/chia-carlyle)
 
+👤 **Assad Isah**
+- GitHub: [@nottherealalanturing](https://github.com/nottherealalanturing)
+- LinkedIn: [Assad Isah](https://linkedin.com/in/assadisah)
+
+👤 **Ogaga Iyara**
+- GitHub: [Ogaga Iyara](https://github.com/ogaga01)
+- Twitter: [Ogaga Iyara](https://twitter.com/i_ogaga_n)
+- LinkedIn: [Ogaga Iyara](https://linkedin.com/in/ogaga-iyara)
 
 ## 🤝 Contributing
 
