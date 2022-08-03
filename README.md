@@ -29,7 +29,7 @@ In this project, we will create a console app that will help to keep a record of
   - Run `Rubocop -A` and fix linters errors, if any.
   - Run the ruby program in your terminal thus:
   ```
-  main.rb
+  ruby main.rb
   ```
   - Run the tests and check that they are passing via the command:
   ```
