@@ -1,6 +1,8 @@
 require 'colorize'
+require_relative './games_services'
 
 class App
+  include GamesServices
   def run
     loop do
       app_description
