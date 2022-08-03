@@ -1,5 +1,5 @@
-require_relative '../lib/label.rb'
-require_relative '../lib/item.rb'
+require_relative '../lib/label'
+require_relative '../lib/item'
 
 describe Label do
   before :each do
