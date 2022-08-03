@@ -33,7 +33,7 @@ In this project, we will create a console app that will help to keep a record of
   ```
   - Run the tests and check that they are passing via the command:
   ```
-  Rspec spec
+  Rspec Rspec
   ```
   
 ## Authors
