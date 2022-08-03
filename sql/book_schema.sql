@@ -1,4 +1,4 @@
-CREATE DATABASE catalog_of_things;
+CREATE DATABASE catalogue_of_things;
 
 CREATE TABLE label(
  id INTEGER GENERATED ,
