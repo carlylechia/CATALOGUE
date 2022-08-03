@@ -1,15 +1,6 @@
 require 'colorize'
-require_relative './music_album_services'
-require_relative './games_services'
-require_relative './books_services'
-require_relative './list_services'
 
 class App
-  include ListServices
-  include MusicAlbumServices
-  include GamesServices
-  include BooksServices
-
   def run
     loop do
       app_description
@@ -19,8 +10,6 @@ class App
   end
 
   def app_description
-    puts " \n\nWelcome to The Catalogue of Items 😎 !\n\n".colorize(:light_green)
-    sleep 0.5
     puts "Please choose an option by entering a number: \n".colorize(:light_blue)
     puts '  1 - List All Books'
     puts '  2 - List All Music Albums'
@@ -51,12 +40,12 @@ class App
       sleep 0.5
       add_game
     when 10
-      puts "Thank you for using the Catalog of Items 👍\n".colorize(:green)
+      puts "Thank you for using the Catalogue of Items 👍\n".colorize(:green)
       sleep 0.5
       puts 'Goodbye, See you next Time 😀'.colorize(:magenta)
       exit
     else
-      puts 'Please enter a correct option'
+      puts 'Please enter an option from the list'
     end
   end
 end

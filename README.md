@@ -26,7 +26,7 @@ In this project, we will create a console app that will help to keep a record of
   ```
   gem install Rspec
   ```
-  - Run `rubocop -A` and fix linters errors, if any.
+  - Run `Rubocop -A` and fix linters errors, if any.
   - Run the ruby program in your terminal thus:
   ```
   main.rb
