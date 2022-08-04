@@ -51,6 +51,21 @@ module ListServices
     end
   end
 
+  def list_all_games
+    games = read_file('games')
+    if games.empty?
+      puts "There are no games in the catalog, please add some games\n"
+    else
+      puts "Loading list of games in the catalog...\n"
+      sleep 0.75
+      games.each_with_index do |game, index|
+        puts "#{index + 1}) Game Name: #{game['name']} || Game multiplayer: #{game['multiplayer']} ||
+        \r   Last palayed at: #{game['last_played_at']} || Author first name: #{game['first_name']} ||
+        \r   Author last name: #{game['last_name']} || Released on: #{game['publish_date']} ||\n\n"
+      end
+    end
+  end
+
   def list_all_authors
     games = read_file('games')
     if games.empty?
