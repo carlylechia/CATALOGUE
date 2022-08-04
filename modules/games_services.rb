@@ -1,6 +1,7 @@
 require_relative '../lib/game'
 require_relative '../lib/author'
 require_relative 'save_data'
+require 'colorize'
 require 'pry'
 
 module GamesServices
@@ -54,7 +55,7 @@ module GamesServices
     first_name = get_input_author('first name')
     last_name = get_input_author('last name')
     game = Game.new(game_name, multiplayer, last_played_at, publish_date)
-    puts "Game #{game_name} created successfully"
+    puts "Game #{game_name} created successfully".colorize(:green)
     author = Author.new(first_name, last_name)
     game.add_author(author)
     games << game
