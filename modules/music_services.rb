@@ -56,7 +56,7 @@ module MusicAlbumServices
 
   def add_music_album
     music_albums = []
-    album_name = music_album_data('Name')
+    album_name = music_album_data('Album name')
     artist_name = music_album_data('Artist Name')
     publish_date = valid_album_date
     genre_name = genre_data('Genre')
