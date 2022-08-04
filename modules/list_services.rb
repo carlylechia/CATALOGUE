@@ -50,4 +50,15 @@ module ListServices
       end
     end
   end
+
+  def list_all_authors
+    games = read_file('games')
+    if games.empty?
+      puts "There are no author in the catalog, please add some authors\n"
+    else
+      games.each_with_index do |game, index|
+        puts "\r#{index + 1}) Author first name: #{game['first_name']} || Author last name: #{game['last_name']} ||"
+      end
+    end
+  end
 end
