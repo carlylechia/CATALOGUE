@@ -1,8 +1,10 @@
 require 'colorize'
 require_relative './games_services'
+require_relative './list_services'
 
 class App
   include GamesServices
+  include ListServices
   def run
     loop do
       app_description
