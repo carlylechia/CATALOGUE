@@ -65,5 +65,14 @@ module ListServices
     end
   end
 
-  
+  def list_all_genres
+    music_albums = read_file('music_albums')
+    if music_albums.empty?
+      puts "There are no genres in the catalog, please add some music albums\n"
+    else
+      music_albums.each_with_index do |music_album, index|
+        puts "#{index + 1}) Genre Name: #{music_album['genre']}"
+      end
+    end
+  end
 end
