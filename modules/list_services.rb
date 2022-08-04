@@ -51,6 +51,21 @@ module ListServices
     end
   end
 
+  def list_all_games
+    games = read_file('games')
+    if games.empty?
+      puts "There are no games in the catalog, please add some games\n"
+    else
+      puts "Loading list of games in the catalog...\n"
+      sleep 0.75
+      games.each_with_index do |game, index|
+        puts "#{index + 1}) Game Name: #{game['name']} || Game multiplayer: #{game['multiplayer']} ||
+        \r   Last palayed at: #{game['last_played_at']} || Author first name: #{game['first_name']} ||
+        \r   Author last name: #{game['last_name']} || Released on: #{game['publish_date']} ||\n\n"
+      end
+    end
+  end
+
   def list_all_music_albums
     music_albums = read_file('music_albums')
     if music_albums.empty?
@@ -61,6 +76,17 @@ module ListServices
       music_albums.each_with_index do |music_album, index|
         puts "#{index + 1}) Album Name: #{music_album['album_name']}  Album Genre: #{music_album['genre']}
         Artist Name: #{music_album['artist_name']}  Released on: #{music_album['publish_date']}\n\n"
+      end
+    end
+  end
+
+  def list_all_authors
+    games = read_file('games')
+    if games.empty?
+      puts "There are no author in the catalog, please add some authors\n"
+    else
+      games.each_with_index do |game, index|
+        puts "\r#{index + 1}) Author first name: #{game['first_name']} || Author last name: #{game['last_name']} ||"
       end
     end
   end
