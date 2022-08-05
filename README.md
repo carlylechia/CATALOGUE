@@ -13,6 +13,9 @@ In this project, we will create a console app that will help to keep a record of
 - Linters
 - RSpec
 
+## Video Description
+![Video](https://drive.google.com/file/d/1FRHmrqu_Fkx9EjNl8GFX2OPPHYpZ6YqX/view?usp=sharing)
+
 
 ## Getting Started
 
