@@ -14,7 +14,7 @@ In this project, we will create a console app that will help to keep a record of
 - RSpec
 
 ## Video Description
-![Video](https://drive.google.com/file/d/1l3gL7_RcGOblVOTQsJ2HAfX_WdOVS7zF/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1l3gL7_RcGOblVOTQsJ2HAfX_WdOVS7zF/view?usp=sharing)
 
 
 ## Getting Started
