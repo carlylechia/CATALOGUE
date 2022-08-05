@@ -38,10 +38,11 @@ module MusicAlbumServices
     until correct_input
       print 'Is the album on Spotify [Y/N]:'
       on_spotify_input = gets.chomp.downcase
-      correct_input = %w[y n].include?(on_spotify_input)
+      break if %w[y n].include?(on_spotify_input)
+
       puts "Incorrect option! Please enter Y or N only\n".colorize(:red)
     end
-    _on_spotify = on_spotify_input == 'y'
+    on_spotify_input == 'y'
   end
 
   def genre_data(input)
