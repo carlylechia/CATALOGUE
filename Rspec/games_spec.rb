@@ -1,4 +1,4 @@
-require 'spec_helper'
+require_relative '../lib/game'
 describe Game do
   before :each do
     @game = Game.new('football', 'Ali', '2018-01-01', '2010-12-14')
